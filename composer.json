@@ -1,0 +1,30 @@
+{
+    "name": "stickee/cache",
+    "description": "PSR-16 Cache Implementation using Zend\\Cache",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Meredith",
+            "email": "martin.meredith@stickee.co.uk"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "psr/simple-cache": "^1.0",
+        "zendframework/zend-cache": "^2.7"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "preferred-install": {
+            "stickee/*": "source",
+            "*": "dist"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Stickee\\Cache\\": "src/"
+        }
+    },
+}
