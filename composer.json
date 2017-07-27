@@ -3,6 +3,10 @@
     "description": "PSR-16 Cache Implementation using Zend\\Cache",
     "minimum-stability": "dev",
     "license": "MIT",
+    "provides":
+    {
+        "psr/simplecache-implementation": "~1.0"
+    },
     "authors": [
         {
             "name": "Martin Meredith",
